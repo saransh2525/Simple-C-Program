@@ -8,7 +8,10 @@ class Abc
     {
         Console.WriteLine("hello print2");
             }
-
+    public void print3()
+    {
+        Console.WriteLine("hello print3");
+            }
 }
 class Xyz
 {
@@ -17,5 +20,6 @@ class Xyz
         Abc obj = new Abc();
         obj.print();
         obj.print2();
+        obj.print3();
     }
 }
